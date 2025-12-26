@@ -6,13 +6,13 @@
 # NOTE Which means no need to package them separately.
 
 Name:		python-ujson
-Version:	5.10.0
+Version:	5.11.0
 Release:	1
 Summary:	Ultra fast JSON encoder and decoder for Python
 URL:		https://github.com/ultrajson/ultrajson
 License:	BSD-3-Clause AND TCL
 Group:		Development/Python
-Source0:	https://github.com/ultrajson/ultrajson/archive/%{version}/%{module}-%{version}.tar.gz
+Source0:	https://github.com/ultrajson/ultrajson/archive/%{version}/%{oname}-%{version}.tar.gz
 BuildSystem:	python
 
 BuildRequires:	double-conversion-devel
@@ -61,5 +61,6 @@ export PYTHONPATH="%{buildroot}%{python_sitearch}:${PWD}"
 %files
 %{python_sitearch}/ujson.cpython-*.so
 %{python_sitearch}/ujson-%{version}.dist-info
+%{python_sitearch}/ujson-stubs/__init__.pyi
 %doc README.md
 %license LICENSE.txt
