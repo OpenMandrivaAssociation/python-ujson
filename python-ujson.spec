@@ -61,5 +61,6 @@ export PYTHONPATH="%{buildroot}%{python_sitearch}:${PWD}"
 %files
 %{python_sitearch}/ujson.cpython-*.so
 %{python_sitearch}/ujson-%{version}.dist-info
+%{python_sitearch}/ujson-stubs/__init__.pyi
 %doc README.md
 %license LICENSE.txt
