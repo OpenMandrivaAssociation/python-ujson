@@ -6,7 +6,7 @@
 # NOTE Which means no need to package them separately.
 
 Name:		python-ujson
-Version:	5.10.0
+Version:	5.11.0
 Release:	1
 Summary:	Ultra fast JSON encoder and decoder for Python
 URL:		https://github.com/ultrajson/ultrajson
