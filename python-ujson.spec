@@ -2,7 +2,7 @@
 %bcond tests 1
 
 Name:		python-ujson
-Version:	5.12.1
+Version:	5.13.0
 Release:	1
 Summary:	Ultra fast JSON encoder and decoder for Python
 License:	BSD-3-Clause AND TCL
