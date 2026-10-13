@@ -3,7 +3,7 @@
 
 Name:		python-ujson
 Version:	5.13.0
-Release:	1
+Release:	2
 Summary:	Ultra fast JSON encoder and decoder for Python
 License:	BSD-3-Clause AND TCL
 Group:		Development/Python
@@ -12,8 +12,7 @@ Source0:	https://github.com/ultrajson/ultrajson/archive/%{version}/%{name}-%{ver
 
 BuildSystem:	python
 BuildRequires:	double-conversion-devel
-BuildRequires:	pkgconfig(python)
-BuildRequires:	python%{pyver}dist(black)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(setuptools-scm)
